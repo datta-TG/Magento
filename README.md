@@ -7,7 +7,7 @@ If you have a Lite account, you can upgrade it. Click [here](https://cloud.ibm.c
 
 ## Step 1: Provision Kubernetes Cluster
 
-* Click on the search section at the top of the main page, type Kubernetes, and then choose Kubernetes cluster.
+* Click on the search section at the top of the main page, type Kubernetes, and then choose Kubernetes Service.
 
 ![](Kubernetes1.PNG)
 
