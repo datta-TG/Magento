@@ -78,11 +78,11 @@ Make sure you set up correctly the email and password for the application in the
 
 The admin user will be _root_ by default, and you can change its password in the _mariadb.auth.rootPassword_.
 
-![Screenshot](Presta5.PNG)
+![Screenshot](magento5.PNG)
 
 When you're done, accept the terms, and click on *Install*.
 
-![Screenshot](Presta2.PNG)
+![Screenshot](magento2.PNG)
 
 
 ## Step 4: Verify Installation
