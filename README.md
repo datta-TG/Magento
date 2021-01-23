@@ -66,9 +66,23 @@ The following checkmark and the word 'normal' will appear once the Kubernetes Cl
 
 ![Screenshot](magento1.PNG)
 
-* A new window opens, select the cluster and enter the name you want for the Magento workspace, in this case, it will be called _magento-example_, accept the terms and click on *Install*. You can modify the different installation parameters at the bottom. We will leave them by default as shown below, but you can read more about setting up the parameters [here](https://cloud.ibm.com/catalog/content/magento#about "here").
+* A new window opens, select the cluster and enter the name you want for the Magento workspace, in this case, it will be called _magento-example_; then, go to the bottom to find the workspace parameters.
 
-![Screenshot](magento2.PNG)
+You can modify the different installation parameters at the bottom. We will leave them by default except for the credentials Magento uses for its database and its application. You will need the first to access your database console and the second one to access your new Magento application. You can read more about setting up the parameters [here](https://cloud.ibm.com/catalog/content/prestashop "here").
+
+Make sure you set up correctly the email and password for the application in the _magentoEmail_ and _magentoPassword_ variables. 
+
+![Screenshot](magento3.PNG)
+
+![Screenshot](magento4.PNG)
+
+The admin user will be _root_ by default, and you can change its password in the _mariadb.auth.rootPassword_.
+
+![Screenshot](Presta5.PNG)
+
+When you're done, accept the terms, and click on *Install*.
+
+![Screenshot](Presta2.PNG)
 
 
 ## Step 4: Verify Installation
